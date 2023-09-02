@@ -48,30 +48,31 @@ function App() {
   
 
   return (
-    <>
-      <Router>
-        <Header title="Todos List"/>
-        <Routes>
-          <Route
-            path="/"
-            element={
-                <>
-                  <Link to="/add" className="btn btn-light m-3">Add Todo</Link>
-                  <Todos todos={todos} onDelete={onDelete} />
-                </>
-              }
-          >
-          </Route>
-          <Route path="/add" element={<AddTodo addTodo={addTodo} />}>
+    <h1>Hello</h1>
+    // <>
+    //   <Router>
+    //     <Header title="Todos List"/>
+    //     <Routes>
+    //       <Route
+    //         path="/"
+    //         element={
+    //             <>
+    //               <Link to="/add" className="btn btn-light m-3">Add Todo</Link>
+    //               <Todos todos={todos} onDelete={onDelete} />
+    //             </>
+    //           }
+    //       >
+    //       </Route>
+    //       <Route path="/add" element={<AddTodo addTodo={addTodo} />}>
             
-          </Route>
-          <Route path="/about" element={<About/>}>
+    //       </Route>
+    //       <Route path="/about" element={<About/>}>
             
-          </Route>
-        </Routes>
-        <Footer />
-      </Router>
-    </>
+    //       </Route>
+    //     </Routes>
+    //     <Footer />
+    //   </Router>
+    // </>
   );
 }
 
