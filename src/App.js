@@ -49,7 +49,7 @@ function App() {
 
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Header title="Todos List"/>
         <Routes>
           <Route
